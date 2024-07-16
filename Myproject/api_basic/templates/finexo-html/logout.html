@@ -1,0 +1,15 @@
+       {% extends 'finexo-html/base.html' %}
+       {% load static %}
+
+       {% block content %}
+    <div class="m-5">
+        <h2>Log Out Successfully</h2>
+       <div class="mt-3">
+           <small class="text-muted">
+           <a href="{% url 'login' %}">Log In Again</a>
+       </small>
+       </div>
+    </div>
+
+
+       {% endblock content %}
